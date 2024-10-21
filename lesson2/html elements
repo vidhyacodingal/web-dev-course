@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Headings</title>
+</head>
+
+<body>
+    <!-- lets try using various heading -->
+    <h1>Welcome to codingal</h1>
+    <h2>Welcome to codingal</h2>
+    <h3>Welcome to codingal</h3>
+    <h4>Welcome to codingal</h4>
+    <h5>Welcome to codingal</h5>
+    <h6>Welcome to codingal</h6>
+</body>
+
+</html>
