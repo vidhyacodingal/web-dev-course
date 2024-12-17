@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>CLASSES IN JS</title>
+
+</head>
+
+<body>
+
+    <h2>JAVASCRIPT CLASSES</h2>
+
+    <p id="student1"></p>
+
+    <p id="student2"></p>
+
+    <script>
+
+        class student {
+
+            constructor(name, year) {
+
+                this.name = name;
+
+                this.year = year;
+
+            }
+
+            // creating age method for class student
+
+            age() {
+
+                let date = new Date();
+
+                return date.getFullYear() - this.year;
+
+            }
+
+        }
+
+        student1 = new student("princess", 2011);
+
+        document.getElementById("student1").innerHTML =
+            "my name is " + student1.name + " I was born in " + student1.year + " My age is " + student1.age();
+
+        student2 = new student("chantel", 2009);
+
+        document.getElementById("student2").innerHTML = "my name is " + student2.name + " I was born in " + student2.year + " My age is " + student2.age();
+
+    </script>
+
+</body>
+
+</html>

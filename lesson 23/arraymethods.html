@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrays</title>
+</head>
+
+<body>
+    <h1>Arrays in html</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        var fruit = ["apple", "orange", "banana", "grapes"];
+        document.getElementById("demo").innerHTML = fruit.join(" * ");
+        document.getElementById("demo1").innerHTML = fruit;
+        fruit.pop();
+        document.getElementById("demo1").innerHTML = fruit;
+    </script>
+
+</body>
+
+</html>
