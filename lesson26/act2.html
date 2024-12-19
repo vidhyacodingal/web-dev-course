@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Array mapping in js</title>
+</head>
+
+<body>
+    <h1>Array mapping in js</h1>
+    <p>Multiple every elemnt in the array with 10</p>
+    <p id="result"></p>
+    <script>
+        var points = [100, 1, 15, 5, 20, 60, 40];
+        function myFunction(num) {
+            return num * 10;
+        }
+        var newarray = points.map(myFunction);
+        document.getElementById("result").innerHTML = newarray
+
+    </script>
